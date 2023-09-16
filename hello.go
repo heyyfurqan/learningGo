@@ -33,6 +33,6 @@ func main() {
 
 	fmt.Println(split(25))
 
-	var cpp, js, react = true, false, "slow AF!"
+	cpp, js, react := true, false, "slow AF!"
 	fmt.Println(j, cpp, js, react)
 }
