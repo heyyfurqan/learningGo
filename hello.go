@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"math"
+	"math/cmplx"
 )
 
 var j int = 10
@@ -35,4 +36,8 @@ func main() {
 
 	cpp, js, react := true, false, "slow AF!"
 	fmt.Println(j, cpp, js, react)
+
+	var z complex128 = cmplx.Sqrt(-5 + 12i)
+
+	fmt.Printf("Type: %T, Value: %v", z, z)
 }
