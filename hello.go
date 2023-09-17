@@ -40,4 +40,11 @@ func main() {
 	var z complex128 = cmplx.Sqrt(-5 + 12i)
 
 	fmt.Printf("Type: %T, Value: %v", z, z)
+
+	var i int
+	var f float64
+	var b bool
+	var s string
+
+	fmt.Printf("%v %v %v %q\n", i, f, b, s)
 }
