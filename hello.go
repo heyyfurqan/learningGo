@@ -27,7 +27,7 @@ func main() {
 
 	fmt.Println(math.Pi)
 
-	fmt.Println(add(44, 55))
+	fmt.Println(add(34, 66))
 
 	c, d := swap("hello", "nigga")
 	fmt.Println(c, d)
