@@ -47,4 +47,8 @@ func main() {
 	var s string
 
 	fmt.Printf("%v %v %v %q\n", i, f, b, s)
+
+	var l int = 5
+	var m float64 = float64(l)
+	fmt.Println(l, m)
 }
